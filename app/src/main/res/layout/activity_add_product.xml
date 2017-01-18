@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.blogspot.theandroidclassroom.tacseller.activity.AddProductActivity"
+    android:id="@+id/activity_add_product"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <include layout="@layout/toolbar_layout"
+        android:id="@+id/toolbar"/>
+    <ScrollView
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageButton
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/image_btn"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Click to Upload Image"
+                style="@style/Base.TextAppearance.AppCompat.Medium"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/image_text"
+                android:layout_centerVertical="true"/>
+            <ImageView
+                android:id="@+id/temp_image"
+                android:layout_centerHorizontal="true"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_add_product_black"
+
+
+               />
+        </RelativeLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/product_name"
+                android:hint="Product Name"/>
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:minHeight="100dp">
+            <EditText
+                android:minHeight="100dp"
+                android:layout_gravity="top"
+                android:gravity="top"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/product_description"
+                android:hint="Product Description"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/product_prize"
+                android:hint="Product Prize"
+                android:inputType="number"/>
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/product_quantity"
+                android:hint="Product Quantity"
+                android:inputType="number"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Product"
+            android:background="@drawable/button_background"
+            android:textColor="@color/textColorPrimary"
+            android:id="@+id/add_product_button"
+            android:layout_gravity="bottom"/>
+    </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>
+
+

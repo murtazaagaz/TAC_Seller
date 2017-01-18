@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "185680550271",
+    "firebase_url": "https://tac-shopping.firebaseio.com",
+    "project_id": "tac-shopping",
+    "storage_bucket": "tac-shopping.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185680550271:android:334b00324c9e70a9",
+        "android_client_info": {
+          "package_name": "com.blogspot.theandroidclassroom.tacseller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "185680550271-tce2omnr3q0qc3ul5vg3iqkcdv8tom3p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0MYl3tom1RxKQ45eTTMOmztK80dzZA70"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
